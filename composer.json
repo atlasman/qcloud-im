@@ -1,0 +1,20 @@
+{
+    "name": "atlasman/qcloud-im",
+    "description": "Tencent Qcloud IM SDK",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "atlasman",
+            "email": "453627592@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Atlasman\\Qcloud\\Im": "src/"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    }
+}
